@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(225deg, #344e41 0%, #a3b18a 50%, #588157 100%);
+    overflow-y: hidden;
+}
+.main{
+    border: 2px solid rgba(0, 0, 0, 0.666);
+    width: 40%;
+    height: 70vh;
+    margin: 100px auto;
+    background-color: #a3b18a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.calculadora > input{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+.calculadora input[type="text"]{
+    width: 70%;
+    height: 35px;
+    margin: 5% 3%;
+    border: 2px solid rgba(36, 35, 35, 0.501);
+    outline: none;
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 10px;
+    letter-spacing: 4px;
+}
+.calculadora input[type="reset"]{
+    background-color: #3a5a40;
+    color: white;
+    width: 20%;
+    height: 35px;
+    cursor: pointer;
+    font-size: large;
+}
+.calculadora input[type="reset"]:hover{
+    background-color: #344e41;
+    color: white;
+    width: 20%;
+    height: 35px;
+    cursor: pointer;
+    font-size: large;
+}
+.calculadora input[type="button"]{
+    background-color: #3a5a40;
+    border: 2px solid rgba(36, 35, 35, 0.501);
+    width: 20%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 3%;
+    border-radius: 20px;
+    font-size: large;
+    color: aliceblue;
+}
+.calculadora input[type="button"]:hover{
+    background-color: #344e41;
+    border: 2px solid rgba(36, 35, 35, 0.501);
+    width: 20%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 3%;
+    border-radius: 20px;
+    font-size: large;
+    color: aliceblue;
+}
+.calculadora input[type="button"]:active{
+    background-color: rgb(3, 44, 1);
+    border: 2px solid rgba(36, 35, 35, 0.501);
+    width: 20%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 3%;
+    border-radius: 20px;
+    font-size: large;
+    color: aliceblue;
+}
+
